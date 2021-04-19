@@ -20,52 +20,20 @@
                                 <rect key="frame" x="83" y="324" width="248" height="248"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="GMP-ZD-beZ" secondAttribute="height" multiplier="1:1" id="Gq7-bB-XOh"/>
-                                    <constraint firstAttribute="width" secondItem="GMP-ZD-beZ" secondAttribute="height" multiplier="1:1" id="RXe-99-HcD"/>
+                                    <constraint firstAttribute="height" constant="248" id="Q6l-Jx-Kef"/>
+                                    <constraint firstAttribute="width" constant="248" id="bvt-MH-UIO"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Gq7-bB-XOh"/>
-                                        <exclude reference="RXe-99-HcD"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="RXe-99-HcD"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="Gq7-bB-XOh"/>
-                                    </mask>
-                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgL-gI-U44" userLabel="Diagram" customClass="DiagramView" customModule="lab_1_1" customModuleProvider="target">
                                 <rect key="frame" x="83" y="324" width="248" height="248"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="pgL-gI-U44" secondAttribute="height" multiplier="1:1" id="7Sf-eE-woH"/>
-                                    <constraint firstAttribute="width" secondItem="pgL-gI-U44" secondAttribute="height" multiplier="1:1" id="EhD-g4-ec6"/>
+                                    <constraint firstAttribute="width" constant="248" id="2Cu-Ur-dbJ"/>
+                                    <constraint firstAttribute="height" constant="248" id="oCx-lq-7ep"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="7Sf-eE-woH"/>
-                                        <exclude reference="EhD-g4-ec6"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="7Sf-eE-woH"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="EhD-g4-ec6"/>
-                                    </mask>
-                                </variation>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Rdv-W7-5zb">
-                                <rect key="frame" x="62" y="271.5" width="290" height="36.5"/>
+                                <rect key="frame" x="128.5" y="293" width="157" height="32"/>
                                 <segments>
                                     <segment title="Графік"/>
                                     <segment title="Діаграма"/>
@@ -78,73 +46,13 @@
                         <viewLayoutGuide key="safeArea" id="MIT-cj-yyV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Rdv-W7-5zb" firstAttribute="height" secondItem="0Mo-c9-l66" secondAttribute="height" multiplier="0.04" id="2Yc-gI-6Ce"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="D5t-UO-qTS"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="top" secondItem="Rdv-W7-5zb" secondAttribute="bottom" constant="16.666666666666629" id="K4q-2d-Ple"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="Khf-6s-tsg"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="LSg-L4-uEU"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="NlX-pN-SsZ"/>
-                            <constraint firstItem="Rdv-W7-5zb" firstAttribute="width" secondItem="0Mo-c9-l66" secondAttribute="width" multiplier="0.7" id="Q10-Ao-PUg"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="Y9J-0r-erS"/>
-                            <constraint firstItem="Rdv-W7-5zb" firstAttribute="centerX" secondItem="pgL-gI-U44" secondAttribute="centerX" id="YC1-Mw-QQF"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="height" secondItem="0Mo-c9-l66" secondAttribute="height" multiplier="0.6" id="YJ8-no-v3u"/>
-                            <constraint firstItem="Rdv-W7-5zb" firstAttribute="centerX" secondItem="pgL-gI-U44" secondAttribute="centerX" id="ZR9-AL-lhK"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="f36-M6-Z1T"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="width" secondItem="0Mo-c9-l66" secondAttribute="width" multiplier="0.6" id="loc-d8-Wdr"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="mRc-On-DpJ"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="width" secondItem="0Mo-c9-l66" secondAttribute="width" multiplier="0.6" id="p9v-TG-kcO"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="height" secondItem="0Mo-c9-l66" secondAttribute="height" multiplier="0.6" id="r7Y-Bm-JQG"/>
-                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="w0P-He-zb6"/>
-                            <constraint firstItem="pgL-gI-U44" firstAttribute="top" secondItem="Rdv-W7-5zb" secondAttribute="bottom" constant="18" id="yS2-eh-cgJ"/>
+                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="4hz-Xn-emo"/>
+                            <constraint firstItem="pgL-gI-U44" firstAttribute="top" secondItem="Rdv-W7-5zb" secondAttribute="bottom" id="5Bf-Km-Bq4"/>
+                            <constraint firstItem="Rdv-W7-5zb" firstAttribute="centerX" secondItem="pgL-gI-U44" secondAttribute="centerX" id="bng-bB-MKS"/>
+                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="czc-cn-k0y"/>
+                            <constraint firstItem="pgL-gI-U44" firstAttribute="centerY" secondItem="0Mo-c9-l66" secondAttribute="centerY" id="dis-EI-mC2"/>
+                            <constraint firstItem="GMP-ZD-beZ" firstAttribute="centerX" secondItem="0Mo-c9-l66" secondAttribute="centerX" id="vaI-Uw-Rs3"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="D5t-UO-qTS"/>
-                                <exclude reference="NlX-pN-SsZ"/>
-                                <exclude reference="f36-M6-Z1T"/>
-                                <exclude reference="p9v-TG-kcO"/>
-                                <exclude reference="r7Y-Bm-JQG"/>
-                                <exclude reference="w0P-He-zb6"/>
-                                <exclude reference="K4q-2d-Ple"/>
-                                <exclude reference="Khf-6s-tsg"/>
-                                <exclude reference="LSg-L4-uEU"/>
-                                <exclude reference="Y9J-0r-erS"/>
-                                <exclude reference="YJ8-no-v3u"/>
-                                <exclude reference="loc-d8-Wdr"/>
-                                <exclude reference="mRc-On-DpJ"/>
-                                <exclude reference="yS2-eh-cgJ"/>
-                                <exclude reference="2Yc-gI-6Ce"/>
-                                <exclude reference="Q10-Ao-PUg"/>
-                                <exclude reference="YC1-Mw-QQF"/>
-                                <exclude reference="ZR9-AL-lhK"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="constraints">
-                                <include reference="NlX-pN-SsZ"/>
-                                <include reference="f36-M6-Z1T"/>
-                                <include reference="p9v-TG-kcO"/>
-                                <include reference="K4q-2d-Ple"/>
-                                <include reference="Khf-6s-tsg"/>
-                                <include reference="Y9J-0r-erS"/>
-                                <include reference="loc-d8-Wdr"/>
-                                <include reference="2Yc-gI-6Ce"/>
-                                <include reference="Q10-Ao-PUg"/>
-                                <include reference="ZR9-AL-lhK"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=compact-widthClass=regular">
-                            <mask key="constraints">
-                                <include reference="D5t-UO-qTS"/>
-                                <include reference="r7Y-Bm-JQG"/>
-                                <include reference="w0P-He-zb6"/>
-                                <include reference="LSg-L4-uEU"/>
-                                <include reference="YJ8-no-v3u"/>
-                                <include reference="mRc-On-DpJ"/>
-                                <include reference="yS2-eh-cgJ"/>
-                                <include reference="YC1-Mw-QQF"/>
-                            </mask>
-                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="lab2" image="hand.draw.fill" catalog="system" id="Epx-k9-4io"/>
                     <connections>

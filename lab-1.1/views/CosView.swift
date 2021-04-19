@@ -55,6 +55,17 @@ class CosView: UIView {
         coordinates.move(to: CGPoint(x: rectWidth / 2 + rectWidth * 0.2, y: rectHeight / 2 - 8))
         coordinates.addLine(to: CGPoint(x: rectWidth / 2 + rectWidth * 0.2, y: rectHeight / 2 + 8))
         
+        // Arrows
+        coordinates.move(to: CGPoint(x: rectCenter.x, y: 0))
+        coordinates.addLine(to: CGPoint(x: rectCenter.x + 10, y: 10))
+        coordinates.addLine(to: CGPoint(x: rectCenter.x - 10, y: 10))
+        coordinates.addLine(to: CGPoint(x: rectCenter.x, y: 0))
+        
+        coordinates.move(to: CGPoint(x: rectWidth, y: rectCenter.y))
+        coordinates.addLine(to: CGPoint(x: rectWidth - 10, y: rectCenter.y + 10))
+        coordinates.addLine(to: CGPoint(x: rectWidth - 10, y: rectCenter.y - 10))
+        coordinates.addLine(to: CGPoint(x: rectWidth, y: rectCenter.y))
+        
         coordinates.lineWidth = 1
         blackColor.setStroke()
         coordinates.stroke()
